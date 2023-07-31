@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!--Libs-->
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/app.js"></script>
@@ -176,7 +180,7 @@
     <section class="projects">
         <div class="container-rs">
             <div class="projects-list">
-                <div class="projects-item" data-type="img" data-content="./imgs/proj-2.png">
+                <div class="projects-item" data-type="video" data-content="./imgs/video.webm">
                     <div class="item-col">
                         <h2 class="item-title">
                             Торговый центр
@@ -230,13 +234,653 @@
                         </svg>
                     </div>
                 </div>
+                <div class="projects-item" data-type="img" data-content="./imgs/proj-3.png">
+                    <div class="item-col">
+                        <h2 class="item-title">
+                            Сельхоз сооружение
+                        </h2>
+                        <span class="item-count">
+                            03
+                        </span>
+                    </div>
+                    <div class="item-col">
+                        <span class="item-year">
+                           от 1 месяца
+                        </span>
+                    </div>
+                    <div class="item-col">
+                        Строительство ангаров, сельскохозяйственных павильонов и ферм  из металлокаркаса в Казахстане
+                        <a href="#">
+                            Типовые решения
+                        </a>
+                    </div>
+                    <div class="item-col arrow">
+                        <!--                        <object data="./imgs/icons/sprite.svg#arrow" type=""></object>-->
+                        <svg>
+                            <use xlink:href="./imgs/icons/sprite.svg#arrow"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="projects-item" data-type="img" data-content="./imgs/proj-4.png">
+                    <div class="item-col">
+                        <h2 class="item-title">
+                            Склад
+                        </h2>
+                        <span class="item-count">
+                            04
+                        </span>
+                    </div>
+                    <div class="item-col">
+                        <span class="item-year">
+                          от 1,5 месяцев
+                        </span>
+                    </div>
+                    <div class="item-col">
+                        Строительство складов и открытых складских навесов арочной конструкции  из металлокаркаса в Усть-Каменогорске
+                        <a href="#">
+                            Типовые решения
+                        </a>
+                    </div>
+                    <div class="item-col arrow">
+                        <!--                        <object data="./imgs/icons/sprite.svg#arrow" type=""></object>-->
+                        <svg>
+                            <use xlink:href="./imgs/icons/sprite.svg#arrow"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn-default m-auto">
+                <span text="Показать еще">Показать еще</span>
+            </a>
+        </div>
+    </section>
+    <section class="production">
+        <div class="container-rs">
+            <h2 class="section-title text-center">
+                Производство
+            </h2>
+            <div class="production-elements">
+                <div class="production-row">
+                    <div class="production-text">
+                        <p>
+                            Технология изготовления строится на 7-ми принципах оптимизации...
+                        </p>
+                        <a href="" class="default-link">
+                            Подробнее
+                        </a>
+                    </div>
+                    <div class="production-list">
+                        <div class="production-item">
+                            <img src="./imgs/prod-1.svg" alt="">
+                            <h2>
+                                Металлоконструкции
+                            </h2>
+                            <p>
+                                На основании чертежей заказчика «КМ» мы выполним чертежи «КМД» и изготовим любой вид строительных металлоизделий
+                            </p>
+                        </div>
+                        <div class="production-item">
+                            <img src="./imgs/prod-2.svg" alt="">
+                            <h2>
+                                Быстровозводимые
+                                здания
+                            </h2>
+                            <p>
+                                Быстровозводимый стальной каркас по фиксированной цене за 1 м2 здания. Никакого увеличения стоимости после разработки чертежей КМД
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="production-row">
+                    <div class="production-text">
+                        <p>
+                            Разветвлённая сеть заводов позволяет вести параллельное изготовление на нескольких площадках, что позволяет сокращать сроки производства.
+                        </p>
+                        <p>
+                            Также возможность выбирать для изготовления заказа ближайшую производственную площадку к клиенту для удешевления логистики.
+                        </p>
+                    </div>
+                    <div class="production-list">
+                        <div class="production-item">
+                            <img src="./imgs/prod-3.svg" alt="">
+                            <h2>
+                                ПСПК “Кисловодск”
+                                (МАРХИ)
+                            </h2>
+                            <p>
+                                Перекрестно-стержневые пространственные конструкции позволяют перекрывать пролеты до 120 метров без промежуточных опор
+                            </p>
+                        </div>
+                        <div class="production-item">
+                            <img src="./imgs/prod-4.svg" alt="">
+                            <h2>
+                                Сэндвич-панели
+                            </h2>
+                            <p>
+                                Строительный материал, состоящий из двух металлических листов (облицовок) и наполнителя между ними (сердечника).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="steps">
+        <div class="container-rs position-relative">
+            <div class="steps-count_list">
+                <div class="steps-count_item col-3">
+                    01 <sub>мес</sub>
+                </div>
+                <div class="steps-count_item  col-3">
+                    02 <sub>мес</sub>
+                </div>
+                <div class="steps-count_item  col-3">
+                    03 <sub>мес</sub>
+                </div>
+                <div class="steps-count_item  col-3">
+                    04 <sub>мес</sub>
+                </div>
+            </div>
+            <div class="steps-row">
+                <div class="steps-elements">
+                    <div class="steps-text">
+                        <h3>
+                            Так делают обычные заводы
+                        </h3>
+                        <p>
+                            Элементы здания производятся по очереди, исходя из загруженности сотрудников производства и оборудования
+                        </p>
+                    </div>
+                    <div class="steps-items_list">
+                        <div class="steps-item">
+                            Колонны
+                        </div>
+                        <div class="steps-item">
+                            Балки перекрытия
+                        </div>
+                        <div class="steps-item">
+                            Связи и распорки
+                        </div>
+                        <div class="steps-item">
+                            Площадки и лестницы
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="steps-row">
+                <div class="steps-elements">
+                    <div class="steps-text">
+                        <h3>
+                            Так делаем мы
+                        </h3>
+                        <p>
+                            Производим элементы здания одновременно, параллельно на 4-6 авторизованных заводах, что сокращает срок поставки минимум в 2 раза
+                        </p>
+                    </div>
+                    <div class="steps-items_list">
+                        <div class="steps-item">
+                            Колонны
+                        </div>
+                        <div class="steps-item">
+                            Балки перекрытия
+                        </div>
+                        <div class="steps-item">
+                            Связи и распорки
+                        </div>
+                        <div class="steps-item">
+                            Площадки и лестницы
+                        </div>
+                        <div class="steps-item">
+                            Фермы
+                        </div>
+                        <div class="steps-item">
+                            Прогоны
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
     </section>
-    <div id="projects-frame">
+    <section class="projects-ready">
+        <div class="container-rs">
+            <div class="top-section">
+                <h2 class="section-title">
+                    Реализованные <br>
+                    проекты
+                </h2>
+                <span>
+                    (2020 — 2023)
+                </span>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="projects-ready-arrows">
+                        <button class="btn-arr btn-arr--prev btn-prev-multy"></button>
+                        <button class="btn-arr  btn-next-multy"></button>
+                    </div>
+                    <div class="slider-text  owl-carousel owl-theme">
+                        <div class="slider-item animate__animated ">
+                            <h2>
+                                Завод по производству <br>
+                                гофрокартона
+                            </h2>
+                            <p>
+                                ТОО «Интер Мульти Сервис»
+                            </p>
+                            <a href="" class="default-link">
+                                Подробнее
+                            </a>
+                        </div>
+                        <div class="slider-item animate__animated ">
+                            <h2>
+                                Автосалон Hyundai
+                            </h2>
+                            <p>
+                                ТОО «Тенгри Авто»
+                            </p>
+                            <a href="" class="default-link">
+                                Подробнее
+                            </a>
+                        </div>
+                        <div class="slider-item animate__animated " >
+                            <h2>
+                                Тепляк для <br> технологического <br>
+                                отогрева 14 вагонов <br> с концентратом
+                            </h2>
+                            <p>
+                                ТОО «Казцинк»
+                            </p>
+                            <a href="" class="default-link">
+                                Подробнее
+                            </a>
+                        </div>
+                        <div class="slider-item animate__animated ">
+                            <h2>
+                                Ремонтно-механическая <br>
+                                мастерская для горно-шахтной <br>
+                                техники
+                            </h2>
+                            <p>
+                                ТОО «Интер Мульти Сервис»
+                            </p>
+                            <a href="" class="default-link">
+                                Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="slider-image owl-carousel owl-theme">
+                        <div class="item">
+                           <figure>
+                               <img src="./imgs/s-1.png" alt="">
+                           </figure>
+                        </div>
+                        <div class="item">
+                            <figure>
+                                <img src="./imgs/s-2.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="item">
+                            <figure>
+                                <img src="./imgs/s-3.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="item">
+                            <figure>
+                                <img src="./imgs/s-4.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row subslider-text">
+                <div class="col-6 row offset-6">
+                   <div class="col-6">
+                       Заводы производственного объединения реализовали
+                       более 1000 объектов
+                       <a href="" class="default-link">
+                           Скачать портфолио копании
+                       </a>
+
+                   </div>
+                    <div class="col-6">
+                        Качественный уровень нашей работы подтверждается доверием клиентов
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tabs">
+        <div class="container-rs">
+           <div class="col-6">
+               <h2 class="section-title">
+                   10 важных вещей
+               </h2>
+               <p>
+                   На которые стоит обратить внимание при проектировании, возведении и вводе в эксплуатацию зданий из металлоконструкций
+               </p>
+
+           </div>
+            <div class="tabs-list">
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Чертежи КМД
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Марки и сечения сталей
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Учитывайте покрытие грунтом
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Покраска металлокаркаса
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Подготовка площадки
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Доставка и упаковка
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Правильный монтажный шов
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Усилие завинчивания болтов
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Сварочные работы и крепеж
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-item">
+                    <div class="tabs-visible">
+                        <h3>
+                            Не проектная нагрузка и изменения
+                        </h3>
+                        <button class="btn-open">
+
+                        </button>
+                    </div>
+                    <div class="tabs-content">
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aut cupiditate, deleniti ea
+                            facilis nemo nobis numquam quam quas veniam. Blanditiis doloribus id ipsam odio provident,
+                            quos voluptatem! Asperiores, omnis.
+                        </div>
+                        <div>Beatae eveniet expedita harum impedit iure natus placeat reiciendis veritatis. Eius facere
+                            iusto porro quasi! A adipisci autem cupiditate est labore magnam molestiae natus possimus
+                            soluta voluptatibus. Beatae, fugiat, molestiae.
+                        </div>
+                        <div>Ad autem distinctio dolorem fuga magnam maiores odio, omnis, perferendis quas quisquam
+                            sapiente vero voluptatibus? Culpa cum doloribus enim fuga mollitia placeat porro voluptatem!
+                            Doloremque eaque explicabo placeat sunt veniam?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="projects-frame" class=" ">
         <iframe src="" frameborder="0" width="100%" height="100%"></iframe>
     </div>
-
+    <footer>
+        <div class="container-rs">
+            <div class="row">
+                <div class="col-6 footer-menu">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                О компании
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Производство
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                О компании
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Услуги
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Производство
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 footer-social">
+                    <ul>
+                        <li>
+                            <a href="tel:+7 707 710 10 17" >+7 707 710 10 17</a>
+                        </li>
+                        <li>
+                            <a href="mailto:office@ant-pro.kz" >office@ant-pro.kz</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="">
+                                instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                youtube
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copy">
+                © 2023. ТОО «Производственное объединение Готовое решение – Ready Solution». Все права защищены
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
