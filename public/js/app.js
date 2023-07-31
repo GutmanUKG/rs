@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
     dots: false,
     vertical: true,
     animateIn: 'bounceInUp',
-    animateOut: 'bounceOutUp',
+    animateOut: 'fadeOut',
     responsive: {
       0: {
         items: 1

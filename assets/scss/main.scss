@@ -3,8 +3,6 @@
   --col-rs: calc((1 / 12) * 100%);
   --container-rs: calc( 100% - var(--col-rs));
   --header-height: calc(var(--index)*2);
-  --scale--ratio: 0;
-  --fade-in-animation-name: tdFadeOut;
 }
 $size16: calc( (100vw - 1280px)/(2560 - 1280) * (26 - 16) + 16px);
 $size20:calc( (100vw - 1280px)/(2560 - 1280) * (30 - 20) + 20px);
@@ -1043,7 +1041,9 @@ footer{
 }
 .bounceOutUp{
   animation-name: bounceOutUp;
+
 }
-.tdFadeOut {
-  animation-name: var(--fade-in-animation-name); /* or css variables */
+.fadeOut{
+  animation-name: fadeOut;
+
 }
